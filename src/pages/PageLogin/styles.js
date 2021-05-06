@@ -8,5 +8,9 @@ export const Container = styled.div`
   justify-content: center; 
   align-content: center;
   margin-top: 100px;
-  border-radius: 5px
+  border-radius: 5px;
+
+  @media(max-width: 320px) {
+    display: list-item;
+  }
 `;

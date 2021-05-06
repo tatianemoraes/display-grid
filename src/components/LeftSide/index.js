@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { Container, Text, Main } from './styles'
+import { Container, Text, Main, Footer } from './styles'
 
 
 export default function LeftSide() {
@@ -18,10 +18,10 @@ export default function LeftSide() {
             </p>
           </div>
         </Text>
-        <div>
+        <Footer>
           <p className="medium-word">Already have an account?</p>
           <b className="medium-word">Sign in</b>
-        </div>
+        </Footer>
       </Main>
     </Container>
   )

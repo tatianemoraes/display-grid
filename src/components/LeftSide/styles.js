@@ -23,6 +23,12 @@ export const Main = styled.div`
   padding-right: 215px;
   padding-top: 60px;
   padding-bottom: 20px;
+
+  @media(max-width: 320px) {
+    padding-left: 90px;
+    margin-left: -56px;
+    margin-top: 10px;
+  }
 `;
 
 export const Text = styled.div`
@@ -47,5 +53,40 @@ export const Text = styled.div`
     .high-word {
       font-size: 18px;
     }
+
+  }
+  @media(max-width: 320px) {
+      
+    width: 50vw;
+    padding:10px;
+
+      .title {
+        margin-top: -63px;
+        font-size: 18px;
+      }
+
+      .title2 {
+        padding-top: 35px;
+        display: grid; 
+        gap: 10px;
+
+        .short-word {
+          font-size: 12px;
+        }
+
+        .medium-word {
+          font-size: 15px;
+        }
+
+        .high-word {
+          font-size: 18px;
+        }
+    }
   }
 `;
+
+export const Footer = styled.div`
+  @media(max-width: 320px) {
+      padding:10px;
+  }
+`
